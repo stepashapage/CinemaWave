@@ -1,0 +1,15 @@
+.header-wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.header__wrapper-item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: 800;
+    font-size: 25px;
+}

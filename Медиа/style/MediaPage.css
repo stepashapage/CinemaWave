@@ -1,0 +1,20 @@
+@import './link-2/header.css';
+@import './link-2/main.css';
+@import './link-2/footer.css';
+
+.body {
+    background-color: var(--black);
+    padding: 0 25px;
+    max-width: 450px;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+:root {
+    --black: #202020;
+    --basic: #ff5500;
+    --fff: #fff;
+    --A: #8eb240;
+    --C: #a19725;
+    --E: #7a1d13;
+}

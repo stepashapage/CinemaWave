@@ -1,0 +1,25 @@
+@import './link-5/header.css';
+@import './link-5/main.css';
+@import './link-5/footer.css';
+
+.body {
+    background-color: var(--black);
+    padding: 0 25px;
+    max-width: 450px;
+    height: 90vh;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+:root {
+    --black: #202020;
+    --basic: #ff5500;
+    --fff: #fff;
+    --A: #8eb240;
+    --C: #a19725;
+    --E: #7a1d13;
+}
+
+main{
+    transform: translateY(50%);
+}

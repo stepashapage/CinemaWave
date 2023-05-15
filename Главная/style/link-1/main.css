@@ -1,0 +1,98 @@
+.main {
+    padding-bottom: 80px;
+}
+
+.main__container {
+    margin-top: 25px;
+}
+
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: var(--fff);
+    font-family: Arial;
+}
+
+.wrapper__icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.wrapper__icons::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+.icon-list {
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    position: relative;
+}
+
+.icon-list img{
+    border-radius: 15px;
+}
+
+.icon-timer {
+    position: absolute;
+    bottom: 22%;
+    right: 5%;
+    opacity: 40%;
+    font-weight: 600;
+}
+
+.film-img {
+    margin-bottom: 10px;
+}
+
+.icon-name {
+    line-height: normal;
+}
+
+.film-icon {
+    margin-left: 10px;
+}
+
+.film-grade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    transform: translateX(-25%);
+    width: 40px;
+    height: 25px;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+.unique-grade__1 {
+    background-color: var(--E);
+}
+
+.unique-grade__2 {
+    background-color: var(--E);
+}
+
+.unique-grade__3 {
+    background-color: var(--A);
+}
+
+.unique-grade__4 {
+    background-color: var(--C);
+}
+
+.unique-grade__5 {
+    background-color: var(--A);
+}
+
+.unique-grade__6 {
+    background-color: var(--E);
+}

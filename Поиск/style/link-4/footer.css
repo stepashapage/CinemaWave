@@ -1,0 +1,25 @@
+.footer__wrapper {
+    max-width: 400px;
+    padding: 0 25px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--black);
+    width: 450px;
+    border-top: 1px solid var(--fff);
+}
